@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var i = j = 1;
+        bangcuuchuong = "<table border='1' width='300' cellspacing='1' cellpadding='10'>";
+            for (i = 2; i<=9; i++) {
+                bangcuuchuong = bangcuuchuong + "<tr>" + "</tr>"
+            
+            for (j = 1; j<=9; j++) {
+                bangcuuchuong = bangcuuchuong + "<td>" +  Number(i)+"x"+ Number(j) + "=" + i * j + "</td>"
+            }
+            }
+        bangcuuchuong = bangcuuchuong + "</table>";
+        document.write(bangcuuchuong);
+    </script>
+</body>
+</html>
